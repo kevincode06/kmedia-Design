@@ -18,15 +18,15 @@ const About = () => {
           </p>
           <div className="about-stats">
             <div className="stat">
-              <h3>5+</h3>
+              <h3>2+</h3>
               <p>Years Experience</p>
             </div>
             <div className="stat">
-              <h3>200+</h3>
+              <h3>30+</h3>
               <p>Projects Completed</p>
             </div>
             <div className="stat">
-              <h3>98%</h3>
+              <h3>100%</h3>
               <p>Client Satisfaction</p>
             </div>
           </div>

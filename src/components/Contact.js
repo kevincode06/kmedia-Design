@@ -15,7 +15,7 @@ const Contact = () => {
               <div className="contact-icon email"></div>
               <div className="contact-details">
                 <h3>Email</h3>
-                <a href="mailto:meloukevin@gmail.com">meloukevin@gmail.com</a>
+                <a href="mailto:meloukevin@gmail.com">maloukevin6@gmail.com</a>
               </div>
             </div>
             
