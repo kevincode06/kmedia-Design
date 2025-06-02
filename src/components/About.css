@@ -1,0 +1,61 @@
+/* src/components/About.css */
+.about {
+    padding: 100px 0;
+    background-color: white;
+  }
+  
+  .about .container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .about-content {
+    flex: 1;
+  }
+  
+  .about-image {
+    flex: 1;
+  }
+  
+  .about-image .image-placeholder {
+    height: 500px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+  }
+  
+  .about-stats {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+  }
+  
+  .stat {
+    text-align: center;
+    background: var(--light);
+    padding: 20px;
+    border-radius: var(--border-radius);
+    flex: 1;
+    box-shadow: var(--shadow);
+  }
+  
+  .stat h3 {
+    font-size: 2.5rem;
+    color: var(--primary);
+    margin-bottom: 5px;
+  }
+  
+  @media (max-width: 992px) {
+    .about .container {
+      flex-direction: column;
+    }
+    
+    .about-content {
+      order: 2;
+    }
+    
+    .about-image {
+      order: 1;
+      width: 100%;
+    }
+  }
